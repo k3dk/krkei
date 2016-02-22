@@ -1,0 +1,167 @@
+/*==================GLOBAL STYLE=======================*/
+html,body{
+    height: 100%;
+    font-family: 'Roboto',sans-serif;
+}
+hr{
+    margin-bottom: 10px;
+    margin-top:10px;
+}
+
+h1 {
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    font-size: 40px;
+}
+.container{
+    padding-bottom: 10px;
+}
+.btn-danger{
+    background-color: #c0392b;
+}
+.custombtn{
+    font-weight: bold;
+    font-size: 18px;
+}
+/*==================NEWS BANNER=======================*/
+#news-banner {
+    background-color: #c0392b;
+    /*background-color: rgba(211,4,4,1);*/
+    padding-top: 0px;
+    color: white;
+}
+.newsbanner-text{
+    margin: 0;
+    padding: 3px;
+}
+.newsbanner-text-small{
+    margin: 0;
+    padding: 5px;
+}
+i.fa-facebook-square {
+    font-size:20px;
+}
+/*==================LOGO BRAND=======================*/
+.navbar-brand{
+    font-size: 30px;
+}
+.navbar-nav>li>a{
+    font-size: 16px;
+}
+
+
+/*==================CITIES MENU=======================*/
+#aside-menu{
+    padding-right: 20px;
+}
+.list-cities{
+    /*text-align: center;*/
+    list-style: none;
+    font-size: 20px;
+    color:black;
+    padding-left: 10px;
+    line-height: 21px;
+    /*border-left:2px solid #C0392B;*/
+}
+ul.list-cities a {
+    color: #555;
+}
+ul.list-cities a:hover{
+    text-decoration: none;
+    font-size:25px;
+    font-weight: bold;
+    color: #333;
+
+}
+ul.list-cities a:hover:after{
+    position: absolute;
+    padding-left: 15px;
+    content:  "\f105";
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: inherit;
+}
+ul.list-cities a:active:after{
+    position: absolute;
+    padding-left: 17px;
+    content:  "\f105";
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: inherit;
+}
+.active-city{
+    text-align: center;
+    padding-bottom: 0;
+    padding-top: 0;
+    margin: 0px;
+}
+.active-city-list{
+    /*border-left:2px solid #C0392B;*/
+    font-weight: bold;
+    font-size: 25px;
+}
+.active-city-list ::after{
+    position: absolute;
+    padding-left: 15px;
+    content:  "\f105";
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: inherit;
+}
+/*==================IMAGE CAROUSE HERO=======================*/
+#myCarousel{
+    padding: 0;
+}
+.carousel-inner{
+    max-height: 400px;
+}
+.carousel-caption{
+    top:30px;
+}
+#main-hero{
+    padding: 0;
+}
+/*===================CALL TO ACTION SECTION==================*/
+#call-to-action{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.cta{
+    padding: 4px;
+}
+.cta h4{
+    text-align: center;
+}
+/*===================MAIN CONTENT HOW DOES IT WORK==================*/
+#how-we-work{
+    background-color:#c0392b;
+    color: white;
+    padding-bottom: 25px;
+}
+.main-content h2{
+    text-align: center;
+    font-size: 24px;
+    padding-top: 10px;
+}
+.discount-coupons{
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+/*=========================LATEST DISCOUNTS ====================*/
+div.desc{
+    background-color: rgba(211, 211,211, 0.5);
+    font-size: 12px;
+
+
+}
+/*============== FOOTER =============================*/
+.footer-content{
+    text-align: center;
+}
+.footer-hr{
+    border: 1px solid #ebebeb;
+}
